@@ -8,6 +8,13 @@ This is my submission for Project 03 on the front-end dev path. It will get upda
 
 The finished version will be linked [here](https://hazim.github.io/OCproject3/) as of now it is a blank page. 
 
+## we are provided with,
+- [x] The Logo
+- [x] Font Roboto form [google fonts](https://fonts.google.com/specimen/Roboto?query=roboto)
+- [x] Colors / Primary: #9356DC / Secondary: #FF79DA / Tertiary: #99E2D0 
+- [x] Image of the finished design.
+- [x] Short video of how the animation should work in our design. 
+
 ## Project submission check list:
 - [x] version control using Git from the start
 - [ ] No framework can be used, however Sass is a plus. 
@@ -30,7 +37,7 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 - [ ] Footer is identical on all pages. 
 - [ ] Clicking on Contact links to an email address. 
 
-##Header 
+## Header 
 - [ ] Header is present on all pages
 - [ ] Home page contains the logo
 - [ ] Menu pages contain a button to return to the home page. 
@@ -50,3 +57,5 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 ## Menu Pages
 - [ ] When arriving on the page, dishes should appear gradually with a slight time lag. 
 - [ ] When a dish is added to an order, a small checkmark will appear to the right of the dish. The tick should slide from right to left. On the desktop version it can happen on hover. In case the title is too long it will have to be trimmed with suspension points. An example is provided. 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c69554c0-b873-497f-b016-4b53f366f9ef/deploy-status)](https://app.netlify.com/sites/ocohmyfood/deploys)
