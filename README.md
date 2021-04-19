@@ -10,3 +10,43 @@ The finished version will be linked as soon as I have it up and working.
 
 ## Project submission check list:
 - [x] version control using Git from the start
+- [ ] No framework can be used, however Sass is a plus. 
+- [ ] Only CSS without Javascript to be used on this project. 
+- [ ] No CSS can be applied to any HTML tag.
+- [ ] Mobile-first approach. 
+- [ ] Tablet and desktop formates are not a priority. 
+- [ ] Fully compatable with latest version of Chrome, Firefox, and Safari.
+- [ ] Has to pass W3C validation for HTML, and CSS without errors.
+
+## Homepage 
+- [ ] Display the location of resturent 
+- [ ] A short presentation 
+- [ ] A section containing the four menus in the form of maps. When clicking on the map, the user is redirected to the menu page.
+
+## Menu Pages (x4)
+- [ ] Each page containing a resturent menu. 
+
+## Footer 
+- [ ] Footer is identical on all pages. 
+- [ ] Clicking on Contact links to an email address. 
+
+##Header 
+- [ ] Header is present on all pages
+- [ ] Home page contains the logo
+- [ ] Menu pages contain a button to return to the home page. 
+
+## Buttons
+- [ ] Animation effects accessible by clicking or hovering.
+- [ ] Animation can only use CSS 
+- [ ] When hovering, the background color of the main button should lighten slightly. 
+- [ ] When hovering, the drop shadow should also be more visible. 
+- [ ] A heart-shaped Like button is present on the model to favour menu items. 
+- [ ] When the heart is clicked it should fill up gradually. The effect can appear on hovering on the desktop version, instead of clicking. 
+
+## Homepage
+- [ ] A loading spinner should appear for 1 to 3 seconds when arriving on the page, cover the whole screen. 
+- [ ] The design of the loader in not defined. 
+
+## Menu Pages
+- [ ] When arriving on the page, dishes should appear gradually with a slight time lag. 
+- [ ] When a dish is added to an order, a small checkmark will appear to the right of the dish. The tick should slide from right to left. On the desktop version it can happen on hover. In case the title is too long it will have to be trimmed with suspension points. An example is provided. 
