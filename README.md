@@ -17,7 +17,7 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 
 ### Project submission check list:
 - [x] version control using Git from the start
-- [ ] No framework can be used, however Sass is a plus. 
+- [x] No framework can be used, however Sass is a plus. 
 - [ ] Only CSS without Javascript to be used on this project. 
 - [ ] No CSS can be applied to any HTML tag.
 - [ ] Mobile-first approach. 

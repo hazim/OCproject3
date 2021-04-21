@@ -1,0 +1,24 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "OpenClassrooms Project 03 OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazim/OCproject3.git"
+  },
+  "keywords": [
+    "OpenClassrooms",
+    "OhMyFood",
+    "Project03"
+  ],
+  "author": "Hazim Sami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hazim/OCproject3/issues"
+  },
+  "homepage": "https://github.com/hazim/OCproject3#readme"
+}
