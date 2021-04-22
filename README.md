@@ -10,7 +10,7 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 
 ### we are provided with,
 - [x] The Logo
-- [x] Font Roboto form [google fonts](https://fonts.google.com/specimen/Roboto?query=roboto)
+- [x] Fonts used are, [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Shrikhand](https://fonts.google.com/specimen/Shrikhand?query=shrikhand)
 - [x] Colors / Primary: #9356DC / Secondary: #FF79DA / Tertiary: #99E2D0 
 - [x] Image of the finished design.
 - [x] Short video of how the animation should work in our design. 
