@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="Hazim Sami" />
+    <meta name="author" content="حازم سامي" />
+    <meta
+      name="description"
+      content="My solution to OhMyFood / Project 3 from the OpenClassrooms frontend path course"
+    />
+    <meta property="og:title" content="ohmyfood" />
+    <meta
+      property="og:description"
+      content="OhMyFood from the OpenClassrooms frontend path"
+    />
+    <meta property="og:image" content="public/img/oc_og_proj03_small.png" />
+    <!-- normalize stylesheet served through CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <!-- font awesome served through a CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <!-- this site's CSS stylesheet -->
+    <link rel="stylesheet" href="public/css/style.css" />
+
+    <title>ohmyfood</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__backarrow">
+        <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+      </div>
+      <h1 class="header__logo">
+        <img
+          class="header__logo__img"
+          src="/public/img/ohmyfood@2x.svg"
+          alt="ohmyfood / Oh My Food Logo"
+        />
+      </h1>
+    </header>
+
+    <section class="restaurant-hero">
+      <img
+        class="restaurant-hero__picture"
+        src="./public/img/the_full_palette_ps.jpg"
+        alt="a hand holding a white plate with food in the center"
+      />
+    </section>
+
+    <section class="restaurant-name">
+      <h2 class="restaurant-name__heading">The Full Palette</h2>
+      <i class="far fa-heart"></i>
+    </section>
+
+    <section class="menu">
+      <h3 class="menu__section">Entrees</h3>
+      <div class="menu__item">
+        <h4 class="menu__item--header">Escargot</h4>
+        <p class="menu__item--descript">with southern French spices</p>
+        <p class="menu__item--price">25&euro;</p>
+      </div>
+      <div class="menu__item">
+        <h4 class="menu__item--header">Duck Foie Gras</h4>
+        <p class="menu__item--descript">with black truffle shaving</p>
+        <p class="menu__item--price">35&euro;</p>
+      </div>
+      <div class="menu__item">
+        <h4 class="menu__item--header">Fried egg</h4>
+        <p class="menu__item--descript">…</p>
+        <p class="menu__item--price">20&euro;</p>
+      </div>
+      <h3 class="menu__section">Main Dish</h3>
+      <div class="menu__item">
+        <h4 class="menu__item--header">Herb-Encrusted Steak</h4>
+        <p class="menu__item--descript">
+          with delicately sliced and seasoned veg...
+        </p>
+        <p class="menu__item--price">40&euro;</p>
+      </div>
+      <div class="menu__item">
+        <h4 class="menu__item--header">Ox Tail Shepard's Pie</h4>
+        <p class="menu__item--descript">with black trufle and pureed parnips</p>
+        <p class="menu__item--price">35&euro;</p>
+      </div>
+      <div class="menu__item">
+        <h4 class="menu__item--header">Filet of Sole</h4>
+        <p class="menu__item--descript">with citrus dressing</p>
+        <p class="menu__item--price">44&euro;</p>
+      </div>
+      <h3 class="menu__section">Desserts</h3>
+      <div class="menu__item">
+        <h4 class="menu__item--header">Paris-Brest</h4>
+        <p class="menu__item--descript">Revisted</p>
+        <p class="menu__item--price">18&euro;</p>
+      </div>
+      <div class="menu__item">
+        <h4 class="menu__item--header">Chocolate Macaroons</h4>
+        <p class="menu__item--descript">with vanila ice cream</p>
+        <p class="menu__item--price">22&euro;</p>
+      </div>
+      <div class="menu__item">
+        <h4 class="menu__item--header">Chocoalte Mousse</h4>
+        <p class="menu__item--descript">with spices and black truffle</p>
+        <p class="menu__item--price">23&euro;</p>
+      </div>
+      <button class="menu__btn">Order</button>
+    </section>
+
+    <!-- TODO: setup styling in scss > layout > footer -->
+    <footer class="footer">
+      <img
+        class="footer__logo"
+        src="./public/img/ohmyfood@2x.svg"
+        alt="ohmyfood Logo"
+      />
+      <p class="footer__item--bold">
+        <i class="fas fa-utensils"></i> Suggest a restaurant
+      </p>
+      <p class="footer__item--bold">
+        <i class="fas fa-hands-helping"></i> Become a partner
+      </p>
+      <p class="footer__item">Legal</p>
+      <p class="footer__item">Contact</p>
+    </footer>
+  </body>
+</html>

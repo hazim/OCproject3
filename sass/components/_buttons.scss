@@ -1,0 +1,11 @@
+.intro__btn,
+.menu__btn {
+  font-size: 0.95rem;
+  padding: 15px 25px;
+  background: linear-gradient(170deg, $color-secondary, $color-primary);
+  border: 0;
+  border-radius: 30px;
+  color: $white;
+  letter-spacing: 0.5px;
+  @include shadow();
+}

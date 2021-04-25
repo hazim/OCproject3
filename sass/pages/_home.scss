@@ -1,0 +1,84 @@
+.location-bar {
+  height: 50px;
+  background-color: $color-dark-gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__input {
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    border: none;
+  }
+}
+
+.intro {
+  padding: 40px $padding-side 60px;
+  background: $color-light-gray;
+  text-align: center;
+  &__heading {
+    margin: 0 0 45px 0;
+  }
+  &__paragraph {
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+}
+
+.how {
+  padding: 30px $padding-side;
+  &heading {
+    margin: 0;
+  }
+  &__list {
+    counter-reset: ocpro3;
+    list-style: none;
+    .fas {
+      margin-right: 20px;
+      color: gray;
+      font-size: 1.2rem;
+    }
+    &__item {
+      counter-increment: ocpro3;
+      padding: 30px 0 30px 30px;
+      border-radius: 15px;
+      background: $color-light-gray;
+      margin-left: -22px;
+      margin-bottom: 20px;
+      &::before {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        content: counter(ocpro3);
+        position: absolute;
+        left: 33px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: $color-primary;
+        color: $white;
+        font-weight: 100;
+      }
+      &:hover {
+        @include hover();
+      }
+      @include shadow();
+    }
+  }
+}
+
+.restaurants {
+  background-color: $color-light-gray;
+  padding: 30px $padding-side;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  &__heading {
+    justify-self: start;
+  }
+  &__card {
+    margin-bottom: 25px;
+    @include shadow();
+  }
+}

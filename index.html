@@ -1,26 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="author" content="Hazim Sami">
-    <meta name="author" content="حازم سامي">
-    <meta name="description" content="My solution to OhMyFood / Project 3 from the OpenClassrooms frontend path course">
-    <meta property="og:title" content="ohmyfood">
-    <meta property="og:description" content="OhMyFood from the OpenClassrooms frontend path">
+    <meta name="author" content="Hazim Sami" />
+    <meta name="author" content="حازم سامي" />
+    <meta
+      name="description"
+      content="My solution to OhMyFood / Project 3 from the OpenClassrooms frontend path course"
+    />
+    <meta property="og:title" content="ohmyfood" />
+    <meta
+      property="og:description"
+      content="OhMyFood from the OpenClassrooms frontend path"
+    />
     <meta property="og:image" content="public/img/oc_og_proj03_small.png" />
     <!-- normalize stylesheet served through CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
     <!-- font awesome served through a CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
     <!-- this site's CSS stylesheet -->
-    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/style.css" />
 
     <title>ohmyfood</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <!-- <div class="header__backarrow"><i class="fas fa-arrow-left"></i></div> -->
+      <h1 class="header__logo">
+        <img
+          class="header__logo__img"
+          src="/public/img/ohmyfood@2x.svg"
+          alt="ohmyfood / Oh My Food Logo"
+        />
+      </h1>
+    </header>
+
+    <!-- This the part that shows the users location in order to list the restaurants in the area -->
+    <section class="location-bar">
+      <p><i class="fas fa-map-marker-alt"></i> Paris, Belleville</p>
+    </section>
+
+    <!-- Contains the welcome note on the homepage -->
+    <section class="intro">
+      <h2 class="intro__heading">Book the menu you like</h2>
+      <p class="intro__paragraph">
+        Discover top-of-the-art restaurants we picked for you
+      </p>
+      <button class="intro__btn">Explore our restaurants</button>
+    </section>
+
+    <section class="how">
+      <h2 class="how__heading">How it works</h2>
+      <ol class="how__list">
+        <li class="how__list__item">
+          <i class="fas fa-mobile-alt"></i>Choose a restaurant
+        </li>
+        <li class="how__list__item">
+          <i class="fas fa-list-ul"></i>Create a menu
+        </li>
+        <li class="how__list__item">
+          <i class="fas fa-store"></i>Go enjoy it at the restaurant
+        </li>
+      </ol>
+    </section>
+
+    <!-- Solution 1: this section lists all the restaurants in the area as clickable cards  -->
+    <section class="restaurants">
+      <h2 class="restaurants__heading">Restaurants</h2>
+      <div class="restaurants__card">
+        <a href="full_palette.html">
+          <div class="restaurants__card__top">
+            <img
+              class="restaurants__card__top__background"
+              src="./public/img/the_full_palette_ps_small.jpg"
+              alt="The Full Palette"
+            />
+            <div class="restaurants__card__top__new">New</div>
+          </div>
+          <div class="restaurants__card__bottom">
+            <h3 class="restaurants__card__bottom__name">The Full Palette</h3>
+            <p class="restaurants__card__bottom__location">New York</p>
+            <i class="far fa-heart"></i>
+          </div>
+        </a>
+      </div>
+
+      <div class="restaurants__card">
+        <a href="#">
+          <div class="restaurants__card__top">
+            <img
+              class="restaurants__card__top__background"
+              src="./public/img/the_enchanted_plate_small.jpg"
+              alt="The Enchanted Plate"
+            />
+            <div class="restaurants__card__top__new">New</div>
+          </div>
+          <div class="restaurants__card__bottom">
+            <h3 class="restaurants__card__bottom__name">The Enchanted Plate</h3>
+            <p class="restaurants__card__bottom__location">New York</p>
+            <i class="far fa-heart"></i>
+          </div>
+        </a>
+      </div>
+
+      <div class="restaurants__card">
+        <a href="#">
+          <div class="restaurants__card__top">
+            <img
+              class="restaurants__card__top__background"
+              src="./public/img/bastille_small.jpg"
+              alt="Bastille"
+            />
+            <div class="restaurants__card__top__new">New</div>
+          </div>
+          <div class="restaurants__card__bottom">
+            <h3 class="restaurants__card__bottom__name">Bastille</h3>
+            <p class="restaurants__card__bottom__location">New York</p>
+            <i class="far fa-heart"></i>
+          </div>
+        </a>
+      </div>
+
+      <div class="restaurants__card">
+        <a href="#">
+          <div class="restaurants__card__top">
+            <img
+              class="restaurants__card__top__background"
+              src="./public/img/le_gourmand_small.jpg"
+              alt="Le Gourmand"
+            />
+            <div class="restaurants__card__top__new">New</div>
+          </div>
+          <div class="restaurants__card__bottom">
+            <h3 class="restaurants__card__bottom__name">Le Gourmand</h3>
+            <p class="restaurants__card__bottom__location">New York</p>
+            <i class="far fa-heart"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- TODO: setup styling in scss > layout > footer -->
+    <footer class="footer">
+      <img
+        class="footer__logo"
+        src="./public/img/ohmyfood@2x.svg"
+        alt="ohmyfood Logo"
+      />
+      <p class="footer__item--bold">
+        <i class="fas fa-utensils"></i> Suggest a restaurant
+      </p>
+      <p class="footer__item--bold">
+        <i class="fas fa-hands-helping"></i> Become a partner
+      </p>
+      <p class="footer__item">Legal</p>
+      <p class="footer__item">Contact</p>
+    </footer>
+  </body>
 </html>
