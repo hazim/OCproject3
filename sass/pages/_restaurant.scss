@@ -29,6 +29,19 @@
   }
 }
 
+@keyframes menu-slide-in {
+  0% {
+    opacity: 0;
+    transform: translate(0, 10px);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .menu {
   padding: 1px $padding-side-rest;
   background: $color-light-gray;
@@ -54,6 +67,8 @@
     border-radius: 15px;
     margin-bottom: 15px;
     transition: background 0.3s;
+    animation: menu-slide-in 1.5s;
+    overflow: hidden;
     @include shadow();
     &--header {
       margin: 0;
@@ -73,10 +88,43 @@
       position: absolute;
       right: 20px;
       bottom: 0;
+      transition: 0.5s ease-in-out;
+    }
+    &--check {
+      position: absolute;
+      top: 0px;
+      right: -70px;
+      width: 70px;
+      height: 100%;
+      background: $color-tertiary;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s ease-in-out;
+      .fa-check {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $color-tertiary;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: $white;
+        transition: transform 0.3s ease-in-out 0.2s;
+      }
     }
     &:hover {
-      trasnform: background;
-      background: $color-tertiary;
+      .menu__item {
+        &--check {
+          right: 0px;
+          .fa-check {
+            transform: rotate(360deg);
+          }
+        }
+        &--price {
+          right: 90px;
+        }
+      }
     }
   }
   &__btn {

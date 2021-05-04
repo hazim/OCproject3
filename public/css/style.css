@@ -240,6 +240,18 @@ footer a {
   font-size: 1.5rem;
 }
 
+@keyframes menu-slide-in {
+  0% {
+    opacity: 0;
+    transform: translate(0, 10px);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .menu {
   padding: 1px 20px;
   background: #f5f5f5;
@@ -272,6 +284,8 @@ footer a {
   border-radius: 15px;
   margin-bottom: 15px;
   transition: background 0.3s;
+  animation: menu-slide-in 1.5s;
+  overflow: hidden;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
 }
 .menu__item--header {
@@ -291,10 +305,39 @@ footer a {
   position: absolute;
   right: 20px;
   bottom: 0;
+  transition: 0.5s ease-in-out;
 }
-.menu__item:hover {
-  trasnform: background;
+.menu__item--check {
+  position: absolute;
+  top: 0px;
+  right: -70px;
+  width: 70px;
+  height: 100%;
   background: #99e2d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+.menu__item--check .fa-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #99e2d0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #ffffff;
+  transition: transform 0.3s ease-in-out 0.2s;
+}
+.menu__item:hover .menu__item--check {
+  right: 0px;
+}
+.menu__item:hover .menu__item--check .fa-check {
+  transform: rotate(360deg);
+}
+.menu__item:hover .menu__item--price {
+  right: 90px;
 }
 .menu__btn {
   padding: 15px 70px;
