@@ -10,7 +10,7 @@
 .restaurant-name {
   background: $color-light-gray;
   border-radius: 30px 30px 0 0;
-  padding: 40px $padding-side-rest 20px;
+  padding: 40px $padding-side-rest 0;
   position: relative;
   margin-top: -30px;
   &__heading {
@@ -30,21 +30,30 @@
 }
 
 .menu {
-  padding: 10px $padding-side-rest;
+  padding: 1px $padding-side-rest;
   background: $color-light-gray;
   &__section {
     @include header-reset();
     font-size: 1rem;
     font-weight: 300;
-    margin-bottom: 20px;
     text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    &:after {
+      content: ""; /* This is necessary for the pseudo element to work. */
+      display: block; /* This will put the pseudo element on its own line. */
+      width: 40px; /* Change this to whatever width you want. */
+      padding-top: 5px; /* This creates some space between the element and the border. */
+      border-bottom: 3px solid $color-tertiary; /* This creates the border. Replace black with whatever color you want. */
+    }
   }
   &__item {
     position: relative;
     padding: 15px 10px;
     background: $white;
     border-radius: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    transition: background 0.3s;
     @include shadow();
     &--header {
       margin: 0;
@@ -64,6 +73,10 @@
       position: absolute;
       right: 20px;
       bottom: 0;
+    }
+    &:hover {
+      trasnform: background;
+      background: $color-tertiary;
     }
   }
   &__btn {
