@@ -171,6 +171,19 @@
         }
       }
     }
+    &:active {
+      .menu__item {
+        &--check {
+          right: 0px;
+          .fa-check {
+            transform: rotate(360deg);
+          }
+        }
+        &--price {
+          right: 90px;
+        }
+      }
+    }
   }
   &__btn {
     padding: 15px 70px;
