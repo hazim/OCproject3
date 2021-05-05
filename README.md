@@ -60,8 +60,8 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 
 ## Homepage
 
-- [ ] A loading spinner should appear for 1 to 3 seconds when arriving on the page, cover the whole screen.
-- [ ] The design of the loader in not defined.
+- [x] A loading spinner should appear for 1 to 3 seconds when arriving on the page, cover the whole screen.
+- [x] The design of the loader in not defined.
 
 ## Menu Pages
 
@@ -76,7 +76,7 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 
 ## Acknowledgement
 
-- Varshini for fixing an issue I ran into with displaying my cards in the right size in Firefox.
+- Varshini for fixing an issue I ran into with displaying my cards in the correct size in Firefox.
 
 ## Badges
 

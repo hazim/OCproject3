@@ -2,7 +2,7 @@
 .menu__btn {
   font-size: 0.95rem;
   padding: 15px 25px;
-  background: linear-gradient(170deg, $color-secondary, $color-primary);
+  background: $btn-bg;
   border: 0;
   border-radius: 30px;
   color: $white;

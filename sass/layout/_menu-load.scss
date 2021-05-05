@@ -1,0 +1,47 @@
+// animating the top layer that disappears once the content underneath it has loaded
+@keyframes page-load {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  99% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+// setting up the animation for the rotating icon
+@keyframes spinner {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// creating the overlay screen that will last for 3 seconds until the content underneath it has finished loading
+.screen-load {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: $white;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: page-load 3s;
+  .fa-spinner {
+    color: $color-primary;
+    font-size: 3rem;
+    animation: spinner 1.2s steps(8) infinite;
+  }
+}
