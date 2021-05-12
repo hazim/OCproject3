@@ -1,0 +1,35 @@
+.heart[type="checkbox"]{
+    height: 1rem;
+    width: 1rem;
+    background-color: $color-dark-gray;
+    outline: none;
+    -webkit-appearance: none;
+    transform: rotate(45deg);
+    position: relative;
+  }
+  .heart[type="checkbox"]:before {
+    position: absolute;
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    background-color: $color-dark-gray ;
+    border-radius: 75px 75px 0 0;
+    height: 60%;
+    top: -53%;
+  }
+  .heart[type="checkbox"]:after {
+    position: absolute;
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    background-color: $color-dark-gray;
+    border-radius: 75px 0 0 75px;
+    width: 60%;
+    top: 0%;
+    right: 95%;
+  }
+  .heart[type="checkbox"]:checked, 
+  .heart:checked[type="checkbox"]:before, 
+  .heart:checked[type="checkbox"]:after {
+    background-color: $color-secondary;
+  }
