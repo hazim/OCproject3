@@ -117,6 +117,7 @@
   height: 1rem;
   width: 1rem;
   background-color: #e5e5e5;
+  visibility: none;
   outline: none;
   -webkit-appearance: none;
   transform: rotate(45deg);
