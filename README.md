@@ -24,14 +24,14 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 - [x] No CSS can be applied to any HTML tag.
 - [x] Mobile-first approach.
 - [x] Tablet and desktop formats are not a priority.
-- [ ] Fully compatible with latest version of Chrome, Firefox, and Safari.
-- [ ] Has to pass W3C HTML validation.
-- [ ] Has to pass W3C CSS validation.
+- [x] Fully compatible with latest version of Chrome, Firefox, and Safari.
+- [x] Has to pass W3C HTML validation.
+- [x] Has to pass W3C CSS validation.
 
 ## Homepage
 
-- [ ] Display the location of restaurant
-- [ ] A short presentation
+- [x] Display the location of restaurant
+- [x] A short presentation
 - [x] A section containing the four menus in the form of maps. When clicking on the map, the user is redirected to the menu page.
 
 ## Menu Pages (x4)
@@ -51,11 +51,11 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 
 ## Buttons
 
-- [ ] Animation effects accessible by clicking or hovering.
-- [ ] Animation can only use CSS
+- [x] Animation effects accessible by clicking or hovering.
+- [x] Animation can only use CSS
 - [ ] When hovering, the background color of the main button should lighten slightly.
 - [ ] When hovering, the drop shadow should also be more visible.
-- [ ] A heart-shaped Like button is present on the model to favour menu items.
+- [x] A heart-shaped Like button is present on the model to favour menu items.
 - [ ] When the heart is clicked it should fill up gradually. The effect can appear on hovering on the desktop version, instead of clicking.
 
 ## Homepage
@@ -65,8 +65,8 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 
 ## Menu Pages
 
-- [ ] When arriving on the page, dishes should appear gradually with a slight time lag.
-- [ ] When a dish is added to an order, a small checkmark will appear to the right of the dish. The tick should slide from right to left. On the desktop version it can happen on hover. In case the title is too long it will have to be trimmed with suspension points. An example is provided.
+- [x] When arriving on the page, dishes should appear gradually with a slight time lag.
+- [x] When a dish is added to an order, a small checkmark will appear to the right of the dish. The tick should slide from right to left. On the desktop version it can happen on hover. In case the title is too long it will have to be trimmed with suspension points. An example is provided.
 
 ## Resources used
 
