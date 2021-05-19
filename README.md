@@ -1,3 +1,5 @@
+![public/img/ohmyfood.jpg](screenshot of the site on a mobile device)
+
 # OpenClassrooms / Project 03
 
 - [ ] project preview image
