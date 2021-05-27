@@ -58,7 +58,7 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 - [ ] When hovering, the background color of the main button should lighten slightly.
 - [ ] When hovering, the drop shadow should also be more visible.
 - [x] A heart-shaped Like button is present on the model to favour menu items.
-- [ ] When the heart is clicked it should fill up gradually. The effect can appear on hovering on the desktop version, instead of clicking.
+- [x] When the heart is clicked it should fill up gradually. The effect can appear on hovering on the desktop version, instead of clicking.
 
 ## Homepage
 
@@ -75,6 +75,7 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 - [Shorten the Length of the Border-Bottom With Pure CSS by Kolten](https://www.steckinsights.com/shorten-length-border-bottom-pure-css/)
 - [Custom list counters by Chris Coyier](https://codepen.io/chriscoyier/pen/jxvBxz)
 - [E-mail links from MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#e-mail_links)
+- [Create a Custom SVG Checkbox](https://youtu.be/46iQVS7WddE)
 
 ## Acknowledgement
 

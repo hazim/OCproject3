@@ -1,35 +1,77 @@
-.heart[type="checkbox"]{
-    height: 1rem;
-    width: 1rem;
-    background-color: $color-dark-gray;
-    outline: none;
-    -webkit-appearance: none;
-    transform: rotate(45deg);
-    position: relative;
+// .heart[type="checkbox"] {
+//   height: 1rem;
+//   width: 1rem;
+//   background-color: $color-dark-gray;
+//   outline: none;
+//   -webkit-appearance: none;
+//   transform: rotate(45deg);
+//   position: relative;
+// }
+// .heart[type="checkbox"]:before {
+//   position: absolute;
+//   content: "";
+//   height: 1rem;
+//   width: 1rem;
+//   background-color: $color-dark-gray;
+//   border-radius: 75px 75px 0 0;
+//   height: 60%;
+//   top: -53%;
+// }
+// .heart[type="checkbox"]:after {
+//   position: absolute;
+//   content: "";
+//   height: 1rem;
+//   width: 1rem;
+//   background-color: $color-dark-gray;
+//   border-radius: 75px 0 0 75px;
+//   width: 60%;
+//   top: 0%;
+//   right: 95%;
+// }
+// .heart[type="checkbox"]:checked,
+// .heart:checked[type="checkbox"]:before,
+// .heart:checked[type="checkbox"]:after {
+//   background-color: $color-secondary;
+// }
+
+/*-------------------------------------------------
+Updated heart icon animation using a checkbox
+-------------------------------------------------*/
+
+.heart {
+  padding: 0;
+  width: 40px;
+  // background: yellow;
+}
+
+input[type="checkbox"] {
+  display: none;
+  pointer-events: none;
+
+  & + label {
+    cursor: pointer;
+    font-size: 0.8em;
+    display: grid;
+
+    svg {
+      width: 3em;
+      stroke: $color-primary;
+      stroke-width: 5;
+
+      .box {
+        stroke-dasharray: 320;
+        stroke-dashoffset: 0;
+        fill: $color-secondary;
+        fill-opacity: 0;
+        transition: all 0.5s linear;
+      }
+    }
   }
-  .heart[type="checkbox"]:before {
-    position: absolute;
-    content: "";
-    height: 1rem;
-    width: 1rem;
-    background-color: $color-dark-gray ;
-    border-radius: 75px 75px 0 0;
-    height: 60%;
-    top: -53%;
+
+  &:checked + label {
+    .box {
+      stroke-dashoffset: 320;
+      fill-opacity: 1;
+    }
   }
-  .heart[type="checkbox"]:after {
-    position: absolute;
-    content: "";
-    height: 1rem;
-    width: 1rem;
-    background-color: $color-dark-gray;
-    border-radius: 75px 0 0 75px;
-    width: 60%;
-    top: 0%;
-    right: 95%;
-  }
-  .heart[type="checkbox"]:checked, 
-  .heart:checked[type="checkbox"]:before, 
-  .heart:checked[type="checkbox"]:after {
-    background-color: $color-secondary;
-  }
+}
