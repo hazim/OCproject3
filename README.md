@@ -1,4 +1,7 @@
-# OpenClassrooms / Project 03
+# OpenClassrooms / Project 03 - Integrate a mobile website with animations in CSS
+The finished site can be viewed [here](https://hazim.github.io/OCproject3/).
+Author: Hazim Sami
+
 
 ![screenshot of the site on mobile device](public/img/ohmyfood.jpg)
 
@@ -6,11 +9,10 @@
 
 ## ohmyfood
 
-This is my submission for Project 03 on the front-end dev path. It will get updated with time as I learn better ways of achieving cleaner and more sustainable code.
+This is my solution for Project 03 from the OpenClassrooms, Front-End Developer path. This will get updated with time, as I learn better ways/techniques of achieving cleaner and more sustainable code.
 
-The finished version will be linked [here](https://hazim.github.io/OCproject3/) as of now it is a blank page.
 
-## we are provided with,
+## we were provided with,
 
 - [x] The Logo
 - [x] Fonts used are, [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Shrikhand](https://fonts.google.com/specimen/Shrikhand?query=shrikhand)
@@ -35,6 +37,7 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 - [x] Display the location of restaurant
 - [x] A short presentation
 - [x] A section containing the four menus in the form of maps. When clicking on the map, the user is redirected to the menu page.
+- [ ] A modified two column desktop version. 
 
 ## Menu Pages (x4)
 
@@ -76,6 +79,8 @@ The finished version will be linked [here](https://hazim.github.io/OCproject3/) 
 - [Custom list counters by Chris Coyier](https://codepen.io/chriscoyier/pen/jxvBxz)
 - [E-mail links from MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#e-mail_links)
 - [Create a Custom SVG Checkbox](https://youtu.be/46iQVS7WddE)
+- [readme-checklist by Daniel D. Beck](https://github.com/ddbeck/readme-checklist/blob/main/checklist.md)
+- [readme by Katherine Peterson](https://readme.so)
 
 ## Acknowledgement
 
