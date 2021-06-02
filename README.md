@@ -37,7 +37,7 @@ This is my solution for Project 03 from the OpenClassrooms, Front-End Developer 
 - [x] Display the location of restaurant
 - [x] A short presentation
 - [x] A section containing the four menus in the form of maps. When clicking on the map, the user is redirected to the menu page.
-- [ ] A modified two column desktop version. 
+- [x] A modified two column desktop version. 
 
 ## Menu Pages (x4)
 
