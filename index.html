@@ -81,160 +81,163 @@
       </ol>
     </section>
 
-    <!-- Solution 1: this section lists all the restaurants in the area as clickable cards  -->
+    <!-- Solution: this section lists all the restaurants in the area as clickable cards  -->
     <section class="restaurants">
       <h2 class="restaurants__heading">Restaurants</h2>
 
       <!-- TODO: setup a two column desktop layout for assessment -->
       <!-- Solution: using CSS GRID -->
-      <div class="restaurants__card">
-        <a href="full_palette.html">
-          <div class="restaurants__card__top">
-            <img
-              class="restaurants__card__top__background"
-              src="./public/img/the_full_palette_ps_small.jpg"
-              alt="The Full Palette"
-            />
-            <div class="restaurants__card__top__new">New</div>
-          </div>
-        </a>
-        <div class="restaurants__card__bottom">
+      <div class="restaurants__larger-layout">
+        <div class="restaurants__card">
           <a href="full_palette.html">
-            <div class="restaurants__card__bottom--left">
-              <h3 class="restaurants__card__bottom__name">The Full Palette</h3>
-              <p class="restaurants__card__bottom__location">New York</p>
+            <div class="restaurants__card__top">
+              <img
+                class="restaurants__card__top__background"
+                src="./public/img/the_full_palette_ps_small.jpg"
+                alt="The Full Palette"
+              />
+              <div class="restaurants__card__top__new">New</div>
             </div>
           </a>
-          <div class="restaurants__card__bottom--right">
-            <div class="heart">
-              <input type="checkbox" name="cb" id="cb1" />
-              <label for="cb1" id="checkbox_1">
-                <svg viewBox="0 0 100 100">
-                  <path
-                    class="box"
-                    d="M50.35,23.83c-0.12,0.12-0.22,0.25-0.34,0.37L50,24.19l-0.02,0.02c-0.12-0.12-0.22-0.25-0.34-0.37
-                    c-8.01-8.01-20.99-8.01-28.99,0s-8.01,20.99,0,28.99c0.12,0.12,0.25,0.22,0.37,0.34l-0.02,0.02L50,82.17l28.99-28.99l-0.02-0.02
-                    c0.12-0.12,0.25-0.22,0.37-0.34c8.01-8.01,8.01-20.99,0-28.99S58.36,15.83,50.35,23.83z"
-                  />
-                </svg>
-              </label>
+          <div class="restaurants__card__bottom">
+            <a href="full_palette.html">
+              <div class="restaurants__card__bottom--left">
+                <h3 class="restaurants__card__bottom__name">The Full Palette</h3>
+                <p class="restaurants__card__bottom__location">New York</p>
+              </div>
+            </a>
+            <div class="restaurants__card__bottom--right">
+              <div class="heart">
+                <input type="checkbox" name="cb" id="cb1" />
+                <label for="cb1" id="checkbox_1">
+                  <svg viewBox="0 0 100 100">
+                    <path
+                      class="box"
+                      d="M50.35,23.83c-0.12,0.12-0.22,0.25-0.34,0.37L50,24.19l-0.02,0.02c-0.12-0.12-0.22-0.25-0.34-0.37
+                      c-8.01-8.01-20.99-8.01-28.99,0s-8.01,20.99,0,28.99c0.12,0.12,0.25,0.22,0.37,0.34l-0.02,0.02L50,82.17l28.99-28.99l-0.02-0.02
+                      c0.12-0.12,0.25-0.22,0.37-0.34c8.01-8.01,8.01-20.99,0-28.99S58.36,15.83,50.35,23.83z"
+                    />
+                  </svg>
+                </label>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="restaurants__card">
-        <a href="./enchanted_plate.html">
-          <div class="restaurants__card__top">
-            <img
-              class="restaurants__card__top__background"
-              src="./public/img/the_enchanted_plate_small.jpg"
-              alt="The Enchanted Plate"
-            />
-            <div class="restaurants__card__top__new">New</div>
-          </div>
-        </a>
-        <div class="restaurants__card__bottom">
+  
+        <div class="restaurants__card">
           <a href="./enchanted_plate.html">
-            <div class="restaurants__card__bottom--left">
-              <h3 class="restaurants__card__bottom__name">
-                The Enchanted Plate
-              </h3>
-              <p class="restaurants__card__bottom__location">New York</p>
+            <div class="restaurants__card__top">
+              <img
+                class="restaurants__card__top__background"
+                src="./public/img/the_enchanted_plate_small.jpg"
+                alt="The Enchanted Plate"
+              />
+              <div class="restaurants__card__top__new">New</div>
             </div>
           </a>
-          <div class="restaurants__card__bottom--right">
-            <div class="heart">
-              <input type="checkbox" name="cb" id="cb2" />
-              <label for="cb2" id="checkbox_2">
-                <svg viewBox="0 0 100 100">
-                  <path
-                    class="box"
-                    d="M50.35,23.83c-0.12,0.12-0.22,0.25-0.34,0.37L50,24.19l-0.02,0.02c-0.12-0.12-0.22-0.25-0.34-0.37
-                    c-8.01-8.01-20.99-8.01-28.99,0s-8.01,20.99,0,28.99c0.12,0.12,0.25,0.22,0.37,0.34l-0.02,0.02L50,82.17l28.99-28.99l-0.02-0.02
-                    c0.12-0.12,0.25-0.22,0.37-0.34c8.01-8.01,8.01-20.99,0-28.99S58.36,15.83,50.35,23.83z"
-                  />
-                </svg>
-              </label>
+          <div class="restaurants__card__bottom">
+            <a href="./enchanted_plate.html">
+              <div class="restaurants__card__bottom--left">
+                <h3 class="restaurants__card__bottom__name">
+                  The Enchanted Plate
+                </h3>
+                <p class="restaurants__card__bottom__location">New York</p>
+              </div>
+            </a>
+            <div class="restaurants__card__bottom--right">
+              <div class="heart">
+                <input type="checkbox" name="cb" id="cb2" />
+                <label for="cb2" id="checkbox_2">
+                  <svg viewBox="0 0 100 100">
+                    <path
+                      class="box"
+                      d="M50.35,23.83c-0.12,0.12-0.22,0.25-0.34,0.37L50,24.19l-0.02,0.02c-0.12-0.12-0.22-0.25-0.34-0.37
+                      c-8.01-8.01-20.99-8.01-28.99,0s-8.01,20.99,0,28.99c0.12,0.12,0.25,0.22,0.37,0.34l-0.02,0.02L50,82.17l28.99-28.99l-0.02-0.02
+                      c0.12-0.12,0.25-0.22,0.37-0.34c8.01-8.01,8.01-20.99,0-28.99S58.36,15.83,50.35,23.83z"
+                    />
+                  </svg>
+                </label>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="restaurants__card">
-        <a href="./bastille.html">
-          <div class="restaurants__card__top">
-            <img
-              class="restaurants__card__top__background"
-              src="./public/img/bastille_small.jpg"
-              alt="Bastille"
-            />
-            <div class="restaurants__card__top__new">New</div>
-          </div>
-        </a>
-        <div class="restaurants__card__bottom">
-          <a href="/bastille.html">
-            <div class="restaurants__card__bottom--left">
-              <h3 class="restaurants__card__bottom__name">Bastille</h3>
-              <p class="restaurants__card__bottom__location">New York</p>
+  
+        <div class="restaurants__card">
+          <a href="./bastille.html">
+            <div class="restaurants__card__top">
+              <img
+                class="restaurants__card__top__background"
+                src="./public/img/bastille_small.jpg"
+                alt="Bastille"
+              />
+              <div class="restaurants__card__top__new">New</div>
             </div>
           </a>
-          <div class="restaurants__card__bottom--right">
-            <div class="heart">
-              <input type="checkbox" name="cb" id="cb3" />
-              <label for="cb3" id="checkbox_3">
-                <svg viewBox="0 0 100 100">
-                  <path
-                    class="box"
-                    d="M50.35,23.83c-0.12,0.12-0.22,0.25-0.34,0.37L50,24.19l-0.02,0.02c-0.12-0.12-0.22-0.25-0.34-0.37
-                    c-8.01-8.01-20.99-8.01-28.99,0s-8.01,20.99,0,28.99c0.12,0.12,0.25,0.22,0.37,0.34l-0.02,0.02L50,82.17l28.99-28.99l-0.02-0.02
-                    c0.12-0.12,0.25-0.22,0.37-0.34c8.01-8.01,8.01-20.99,0-28.99S58.36,15.83,50.35,23.83z"
-                  />
-                </svg>
-              </label>
+          <div class="restaurants__card__bottom">
+            <a href="/bastille.html">
+              <div class="restaurants__card__bottom--left">
+                <h3 class="restaurants__card__bottom__name">Bastille</h3>
+                <p class="restaurants__card__bottom__location">New York</p>
+              </div>
+            </a>
+            <div class="restaurants__card__bottom--right">
+              <div class="heart">
+                <input type="checkbox" name="cb" id="cb3" />
+                <label for="cb3" id="checkbox_3">
+                  <svg viewBox="0 0 100 100">
+                    <path
+                      class="box"
+                      d="M50.35,23.83c-0.12,0.12-0.22,0.25-0.34,0.37L50,24.19l-0.02,0.02c-0.12-0.12-0.22-0.25-0.34-0.37
+                      c-8.01-8.01-20.99-8.01-28.99,0s-8.01,20.99,0,28.99c0.12,0.12,0.25,0.22,0.37,0.34l-0.02,0.02L50,82.17l28.99-28.99l-0.02-0.02
+                      c0.12-0.12,0.25-0.22,0.37-0.34c8.01-8.01,8.01-20.99,0-28.99S58.36,15.83,50.35,23.83z"
+                    />
+                  </svg>
+                </label>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="restaurants__card">
-        <a href="./le_gourmand.html">
-          <div class="restaurants__card__top">
-            <img
-              class="restaurants__card__top__background"
-              src="./public/img/le_gourmand_small.jpg"
-              alt="Le Gourmand"
-            />
-            <div class="restaurants__card__top__new">New</div>
-          </div>
-        </a>
-        <div class="restaurants__card__bottom">
+  
+        <div class="restaurants__card">
           <a href="./le_gourmand.html">
-            <div class="restaurants__card__bottom--left">
-              <h3 class="restaurants__card__bottom__name">Le Gourmand</h3>
-              <p class="restaurants__card__bottom__location">New York</p>
+            <div class="restaurants__card__top">
+              <img
+                class="restaurants__card__top__background"
+                src="./public/img/le_gourmand_small.jpg"
+                alt="Le Gourmand"
+              />
+              <div class="restaurants__card__top__new">New</div>
             </div>
           </a>
-          <div class="restaurants__card__bottom--right">
-            <input type="checkbox" class="heart" />
-
-            <div class="heart">
-              <input type="checkbox" name="cb" id="cb4" />
-              <label for="cb4" id="checkbox_4">
-                <svg viewBox="0 0 100 100">
-                  <path
-                    class="box"
-                    d="M50.35,23.83c-0.12,0.12-0.22,0.25-0.34,0.37L50,24.19l-0.02,0.02c-0.12-0.12-0.22-0.25-0.34-0.37
-                    c-8.01-8.01-20.99-8.01-28.99,0s-8.01,20.99,0,28.99c0.12,0.12,0.25,0.22,0.37,0.34l-0.02,0.02L50,82.17l28.99-28.99l-0.02-0.02
-                    c0.12-0.12,0.25-0.22,0.37-0.34c8.01-8.01,8.01-20.99,0-28.99S58.36,15.83,50.35,23.83z"
-                  />
-                </svg>
-              </label>
+          <div class="restaurants__card__bottom">
+            <a href="./le_gourmand.html">
+              <div class="restaurants__card__bottom--left">
+                <h3 class="restaurants__card__bottom__name">Le Gourmand</h3>
+                <p class="restaurants__card__bottom__location">New York</p>
+              </div>
+            </a>
+            <div class="restaurants__card__bottom--right">
+              <input type="checkbox" class="heart" />
+  
+              <div class="heart">
+                <input type="checkbox" name="cb" id="cb4" />
+                <label for="cb4" id="checkbox_4">
+                  <svg viewBox="0 0 100 100">
+                    <path
+                      class="box"
+                      d="M50.35,23.83c-0.12,0.12-0.22,0.25-0.34,0.37L50,24.19l-0.02,0.02c-0.12-0.12-0.22-0.25-0.34-0.37
+                      c-8.01-8.01-20.99-8.01-28.99,0s-8.01,20.99,0,28.99c0.12,0.12,0.25,0.22,0.37,0.34l-0.02,0.02L50,82.17l28.99-28.99l-0.02-0.02
+                      c0.12-0.12,0.25-0.22,0.37-0.34c8.01-8.01,8.01-20.99,0-28.99S58.36,15.83,50.35,23.83z"
+                    />
+                  </svg>
+                </label>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- Page footer  -->
     <footer class="footer">

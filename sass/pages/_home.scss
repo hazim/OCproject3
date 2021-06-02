@@ -71,13 +71,19 @@
 .restaurants {
   background-color: $color-light-gray;
   padding: 30px $padding-side;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
+  &__larger-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    @media screen and (min-width: 750px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
   &__heading {
     justify-self: start;
   }
   &__card {
+    background-color: $white;
     margin-bottom: 25px;
     @include shadow();
   }
