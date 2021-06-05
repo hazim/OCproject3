@@ -56,10 +56,9 @@ This is my solution for Project 03 from the OpenClassrooms, Front-End Developer 
 
 ## Buttons
 
+
 - [x] Animation effects accessible by clicking or hovering.
 - [x] Animation can only use CSS
-- [ ] When hovering, the background color of the main button should lighten slightly.
-- [ ] When hovering, the drop shadow should also be more visible.
 - [x] A heart-shaped Like button is present on the model to favour menu items.
 - [x] When the heart is clicked it should fill up gradually. The effect can appear on hovering on the desktop version, instead of clicking.
 
@@ -89,3 +88,10 @@ This is my solution for Project 03 from the OpenClassrooms, Front-End Developer 
 ## Badges
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c69554c0-b873-497f-b016-4b53f366f9ef/deploy-status)](https://app.netlify.com/sites/ocohmyfood/deploys)
+
+## Todo: list 
+- [ ] When hovering, the background color of the main button should lighten slightly.
+- [ ] When hovering, the drop shadow should also be more visible.
+- [ ] Organise the loading animation on the front page (currently it is in _menu-load.scss) to its own file for easier access and modification. 
+- [ ] Building out a better desktop version using Figma. 
+- [ ] Coding up the improved desktop version before the final degree validation. 
